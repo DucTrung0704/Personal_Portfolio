@@ -1,16 +1,47 @@
-# React + Vite
+# Personal Portfolio - Nguyễn Đức Trung (Frontend Developer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Bài Test Kỹ Năng Vòng 2 – Vị Trí Thực Tập Sinh Frontend**  
+> Ứng viên: **Nguyễn Đức Trung**  
+> Vị trí ứng tuyển: **Frontend Developer Intern**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo & Liên Kết
+- **Live Demo Website:** [https://your-portfolio-demo.vercel.app](https://your-portfolio-demo.vercel.app) 
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Danh mục | Công nghệ / Thư viện sử dụng |
+| :--- | :--- |
+| **Core Framework** | **React 19** + **Vite** |
+| **Styling** | **Tailwind CSS v3** + PostCSS + Autoprefixer |
+| **Routing** | **React Router v7** (Data-driven, NavLink active state, Scroll to top) |
+| **Animation** | **Framer Motion** (Page transitions) + Tailwind Keyframes |
+| **Icons** | **React Icons** (Feather Icons - Fi) |
+| **State Management** | React Hooks (`useForm`, `useLocalStorage`, `useScrollReveal`) + React Context |
+| **Deployment** | Vercel |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Hướng Dẫn Cài Đặt & Chạy Dự Án
+
+### 1. Yêu cầu môi trường
+- Node.js version `>= 18.x`
+- Trình quản lý gói `npm` hoặc `yarn`
+
+### 2. Cài đặt các bước
+
+```bash
+# Bước 1: Clone repository về máy
+git clone https://github.com/DucTrung0704/personal-portfolio.git
+
+# Bước 2: Di chuyển vào thư mục dự án
+cd personal-portfolio
+
+# Bước 3: Cài đặt các dependencies
+npm install
+
+# Bước 4: Khởi chạy môi trường phát triển (Dev server)
+npm run dev
